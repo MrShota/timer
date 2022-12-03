@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" id="themeStylesheetLink" href="themes/default.css">
+    <script defer src="script.js"></script>
+    <link rel="shortcut icon" href="SH.jpeg" type="image/x-icon">
+    
+    
+    
+    <title>Timer</title>
+    <script src="https://kit.fontawesome.com/784d58b476.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+      <p>  Current Theme: </p>
+        <select class="themeSelect"  id="themeSelect">
+            <option value="default">Light</option>
+            <option value="dark">Dark</option>
+        </select>
+
+        <div class="flex-div">
+
+            <div class="display">
+                <p class="time" id="hours">0</p> <span class="span">:</span>
+                <p class="time" id="minutes"> 0</p> <span class="span">:</span>
+                <p class="time" id="seconds">0</p> 
+                <p class="time" id="m-seconds">0</p>
+            </div>
+
+            <div class="btns">
+                <button class="btn btn-start" id="start">Start</button>
+                <button class="btn btn-round " id="round" 
+                >Round</button>
+                <button class="btn btn-reset" id="reset">Reset</button>
+            </div>
+        </div>
+        <button class="delete" id="delete">Delete All</button>
+        <div class="output" id="output">
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
